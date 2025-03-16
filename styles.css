@@ -48,7 +48,7 @@ input:not(:focus) {
 
 input::placeholder {
     color: rgb(77, 77, 77);
-    font-family: "Comic Neue", cursive;
+    font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -57,7 +57,7 @@ button {
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
-    font-family: "Comic Neue", cursive;
+    font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-style: normal;
     background: none;
