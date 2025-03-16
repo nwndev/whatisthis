@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who are you?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/695b6357ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="keywordInput" placeholder="Siapa namamu?" />
+        <button id="submitButton" class="link-arrow">Submit <span><i class="fa-solid fa-arrow-right"></i></span></button>
+    </div>
+
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal"></span>
+            <p>Sepertinya kau bukan <i>dia.</i></p>
+            <button id="cancelButton" class="button-cancel">Tutup</button>
+        </div>
+    </div>
+    <div id="customContextMenu" class="context-menu">
+        <ul>
+            <li id="searchText"><i class="fa-solid fa-magnifying-glass"></i> Cari</li>
+        </ul>
+    </div>
+    <footer class="footer">
+        <p>Dibuat dengan <i class="fa-solid fa-heart" style="color:rgb(255, 122, 169);"></i> oleh yoyo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
